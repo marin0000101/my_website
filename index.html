@@ -84,12 +84,22 @@
   </head>
   <body>
     <div class="header">
-      <img src="images/logo-dark.png" id="logo-dark-mobile" />
+      <img
+        src="images/logo-dark.png"
+        id="logo-dark-mobile"
+        alt="Marin Sabo Development Logo"
+      />
       <div id="menu-btn">&#9776;</div>
       <ul id="menu-desktop">
         <li><a href="index.html">Home</a></li>
         <li><a href="#services">Services</a></li>
-        <li><img src="images/logo-dark.png" id="logo-dark" /></li>
+        <li>
+          <img
+            src="images/logo-dark.png"
+            id="logo-dark"
+            alt="Marin Sabo Development Logo"
+          />
+        </li>
         <li><a href="#projects">Results</a></li>
         <li><a href="#footer">Contact</a></li>
       </ul>
@@ -269,7 +279,7 @@
       <div class="projects-row">
         <div class="project-container">
           <div class="project-image">
-            <img src="images/wavelance.png" />
+            <img src="images/wavelance.png" alt="Wavelance logo" />
           </div>
           <div class="project-description">
             <div class="subtitle">
@@ -291,7 +301,7 @@
 
         <div class="project-container">
           <div class="project-image">
-            <img src="images/gamechanger.png" />
+            <img src="images/gamechanger.png" alt="Game changer Logo" />
           </div>
           <div class="project-description">
             <div class="subtitle">
@@ -314,28 +324,28 @@
       <div class="projects-row">
         <div class="project-container">
           <div class="project-image">
-            <img src="images/codehustling.png" />
+            <img src="images/lumiglow-logo.png" alt="LumiGlow Logo" />
           </div>
           <div class="project-description">
             <div class="subtitle">
-              <h3>Web Community</h3>
+              <h3>Online Store</h3>
             </div>
             <div class="main-text">
-              <h2>Code Hustling</h2>
+              <h2>LumiGlow</h2>
               <p>
-                A growing community of developers with more than 100 thousand
-                followers
+                LumiGlow helps their customers achieve flawless skin in the
+                comfort of their own homes by using LED light therapy.
               </p>
             </div>
             <div id="projects-cta-gold">
-              <a href="codehustling-case-study.html">Read Case Study</a>
+              <a href="lumiglow-case-study.html">Read Case Study</a>
             </div>
           </div>
         </div>
 
         <div class="project-container">
           <div class="project-image">
-            <img src="images/ikarus-agency.png" />
+            <img src="images/ikarus-agency.png" alt="Ikarus Agency Logo" />
           </div>
           <div class="project-description">
             <div class="subtitle">
@@ -351,6 +361,29 @@
             </div>
             <div id="projects-cta-gold">
               <a href="ikarus-case-study.html">Read Case Study</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="projects-row">
+        <div class="project-container">
+          <div class="project-image">
+            <img src="images/codehustling.png" alt="Code Hustling Logo" />
+          </div>
+          <div class="project-description">
+            <div class="subtitle">
+              <h3>Web Community</h3>
+            </div>
+            <div class="main-text">
+              <h2>Code Hustling</h2>
+              <p>
+                A growing community of developers with more than 100 thousand
+                followers
+              </p>
+            </div>
+            <div id="projects-cta-gold">
+              <a href="codehustling-case-study.html">Read Case Study</a>
             </div>
           </div>
         </div>
@@ -590,19 +623,19 @@
     menuBtn.addEventListener("click", function () {
       menu.classList.add("open");
       blurOverlay.style.display = "block";
-      document.body.style.overflow = "hidden"; // Prevent scrolling when menu is open
+      document.body.style.overflow = "hidden";
     });
 
     closeBtn.addEventListener("click", function () {
       menu.classList.remove("open");
       blurOverlay.style.display = "none";
-      document.body.style.overflow = "auto"; // Allow scrolling when menu is closed
+      document.body.style.overflow = "auto";
     });
 
     blurOverlay.addEventListener("click", function () {
       menu.classList.remove("open");
       blurOverlay.style.display = "none";
-      document.body.style.overflow = "auto"; // Allow scrolling when menu is closed
+      document.body.style.overflow = "auto";
     });
 
     const container = document.querySelectorAll(".content");
