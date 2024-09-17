@@ -269,4 +269,48 @@
       </footer>
     </div>
   </body>
+  <script>
+    var menuBtn = document.getElementById("menu-btn");
+    var menu = document.getElementById("menu-mobile");
+    var closeBtn = document.getElementById("close-btn");
+    var blurOverlay = document.getElementById("blur-overlay");
+
+    menuBtn.addEventListener("click", function () {
+      menu.classList.add("open");
+      blurOverlay.style.display = "block";
+      document.body.style.overflow = "hidden";
+    });
+
+    closeBtn.addEventListener("click", function () {
+      menu.classList.remove("open");
+      blurOverlay.style.display = "none";
+      document.body.style.overflow = "auto";
+    });
+
+    blurOverlay.addEventListener("click", function () {
+      menu.classList.remove("open");
+      blurOverlay.style.display = "none";
+      document.body.style.overflow = "auto";
+    });
+
+    const container = document.querySelectorAll(".content");
+
+    for (i = 0; i < container.length; i++) {
+      container[i].addEventListener("click", function () {
+        this.classList.toggle("active");
+      });
+    }
+
+    AOS.init();
+
+    <!-- Google tag (gtag.js) -->
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-LMLV119BXE");
+  </script>
 </html>
