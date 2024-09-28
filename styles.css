@@ -382,6 +382,7 @@ h3 {
   border-radius: 15px;
   width: 60%;
   transition: all 0.2s;
+  box-shadow: 0px 0px 20px#ffb54c;
 }
 .service:hover {
   border-color: #ffb54c;
@@ -395,7 +396,7 @@ h3 {
 .services-box .service p {
   width: 80%;
   text-align: center;
-  margin-block: 1rem;
+  margin-top: 1rem;
 }
 #services-cta-gold {
   padding: 1rem;
@@ -403,8 +404,9 @@ h3 {
   border: solid 2px transparent;
   font-size: 1.2rem;
   font-weight: bold;
-  border-radius: 30px;
+  border-radius: 10px;
   transition: all 0.4s;
+  margin-top: 2rem;
 }
 #services-cta-gold a {
   color: black;
@@ -413,7 +415,8 @@ h3 {
 #services-cta-gold:hover {
   cursor: pointer;
   background-color: #000;
-  border-color: #ffb54c;
+  border: none;
+  box-shadow: 0px 0px 30px #ffb54c;
 }
 #services-cta-gold:hover a {
   color: #fff;
@@ -499,7 +502,7 @@ h3 {
   color: white;
   width: 15%;
   border-radius: 10px;
-  padding: 20px;
+  padding: 3rem;
   margin-inline: 2rem;
   display: inline-block;
   vertical-align: top;
@@ -619,26 +622,7 @@ h3 {
   text-decoration: none;
 }
 .project-container:hover {
-  background-color: #f8f4eb;
-}
-.project-container:hover .main-text p {
-  color: #000;
-}
-.project-container:hover .main-text h2 {
-  color: #000;
-}
-.project-container:hover #projects-cta-gold {
-  background-color: #130821;
-  color: white;
-  border: solid 2px #fff;
-  font-size: 1.2rem;
-  font-weight: bold;
-  border-radius: 30px;
-  transition: all 0.4s;
-  cursor: pointer;
-}
-.project-container:hover #projects-cta-gold a {
-  color: white;
+  box-shadow: 0px 0px 30px #ffb54c;
 }
 .project-image {
   width: 40%;
