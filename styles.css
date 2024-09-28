@@ -9,7 +9,7 @@ h1 {
   font-size: 3rem;
 }
 h2 {
-  font-size: 2rem;
+  font-size: 2.5rem;
 }
 h3 {
   font-size: 1.5rem;
@@ -344,7 +344,7 @@ h3 {
   align-items: center;
   justify-content: center;
 }
-.services h1 {
+.services h2 {
   text-align: center;
   font-family: "League Spartan", sans-serif;
   margin-bottom: 2rem;
@@ -430,7 +430,7 @@ h3 {
   .services-box {
     width: 100%;
   }
-  .services h1 {
+  .services h2 {
     font-size: 2.5rem;
     text-align: center;
     width: 90%;
@@ -491,7 +491,7 @@ h3 {
   padding-top: 2rem;
   background-color: #f8f4eb;
 }
-.process h1 {
+.process h2 {
   text-align: center;
   font-family: "League Spartan", sans-serif;
   padding-block: 4rem;
@@ -592,7 +592,7 @@ h3 {
   justify-content: space-between;
   overflow-x: visible;
 }
-.projects h1 {
+.projects h2 {
   text-align: center;
   font-family: "League Spartan", sans-serif;
   padding-block: 4rem;
@@ -726,7 +726,7 @@ h3 {
   justify-content: center;
   padding-bottom: 5rem;
 }
-.selection h1 {
+.selection h2 {
   text-align: center;
   font-family: "League Spartan", sans-serif;
   padding-block: 4rem;
@@ -800,7 +800,7 @@ h3 {
     margin-block: 0.5rem;
     border-radius: 15px;
   }
-  .selection h1 {
+  .selection h2 {
     font-size: 2.5rem;
     text-align: center;
     width: 100%;
@@ -877,7 +877,7 @@ h3 {
 .calendly-inline-widget {
   scrollbar-width: none;
 }
-.discovery h1 {
+.discovery h2 {
   text-align: center;
   font-family: "League Spartan", sans-serif;
   padding-block: 2rem;
@@ -926,7 +926,7 @@ h3 {
     height: auto;
     margin-bottom: 4rem;
   }
-  .discovery h1 {
+  .discovery h2 {
     width: 90%;
     font-size: 1.9rem;
   }
@@ -952,7 +952,7 @@ h3 {
   }
 }
 @media screen and (min-width: 701px) and (max-width: 1500px) {
-  .discovery h1 {
+  .discovery h2 {
     width: 100%;
     font-size: 3rem;
   }
@@ -1081,7 +1081,7 @@ h3 {
   background-color: #130821;
   padding-block: 1rem;
 }
-.inquiry-text h1 {
+.inquiry-text h2 {
   text-align: center;
   font-family: "League Spartan", sans-serif;
   margin-block: 2rem;
