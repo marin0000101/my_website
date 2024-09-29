@@ -626,7 +626,7 @@ h3 {
 }
 .project-image {
   width: 50%;
-  display: flex;y
+  display: flex;
   align-items: center;
 }
 .project-image img {
@@ -652,7 +652,7 @@ h3 {
   align-items: center;
   justify-content: center;
 }
-.main-text h2{
+.main-text h2 {
   margin-block: 2rem;
   padding: 0;
 }
